@@ -1,0 +1,86 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .member {
+      width: 50%;
+      margin-bottom: 50px;
+  }
+
+  .animated fadeInUp delay-1s h1 {
+    font-size: 32px;
+  }
+
+  .heading animated fadeIn h2 {
+    font-size: 20px;
+  }
+
+  /* Responsive contact-us untuk v.tablet */
+  .contact-wrapper .form-contact{
+    width:100%;
+  }
+  /* End responsive contact-us */
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .member {
+    width:100%;
+  }
+
+  footer {
+    text-align: center;
+    height: 350px;
+  }
+
+  .footer-list {
+    width: 100%;
+  }
+
+  footer .container {
+    width: 100%;
+  }
+
+  .footer-left a {
+    padding-right: 20px;
+  }
+
+  .footer-list li {
+    padding-top: 20px;
+  }
+
+  .top-wrapper animated fadeIn {
+    text-align: left;
+    padding-top: 130px;
+  }
+
+  .top-wrapper animated fadeIn h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper animated fadeIn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* Responsive untuk form contact-us v. mobile*/
+  .contact-wrapper .form-contact{
+    width:100%;
+  }
+  .contact-wrapper .form-contact .form-element .btn-form{
+    width:100%;
+  }
+  /* End responsive contact-us */
+}

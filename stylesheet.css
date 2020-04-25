@@ -1,0 +1,277 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /*margin:0;*/
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+
+  /*.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }*/
+
+  .top-wrapper {
+    padding: 300px 0 100px 0;
+    background-image: url(https://wallpaperplay.com/walls/full/9/7/0/145562.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 700px;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 1.0;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .top-wrapper p {
+    font-size: 20px;
+    opacity: 1.0;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 115, 128, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /* MEMBER */
+  
+  .member-wrapper {
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align:center;
+  }
+  
+  .member-wrapper .container .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .member-wrapper .container .heading h2 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ddd;
+  }
+  
+  .member {
+    float: left;
+    width: 20%;
+  }
+
+  .member-icon {
+    position: relative;
+  }
+
+  .member-icon img {
+    width:80%;
+  }
+  
+  .title-contents {
+
+    margin: 0px 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin: 15px 20px;
+    font-size: 15px;
+    color: #00999c;
+  }
+
+  /* END MEMBER */
+
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+
+  
+  .footer-logo {
+    font-size: 32px;
+    font-family: MV Boli;
+    font-weight: 900;
+}
+
+  footer .container {
+    padding-left: 40px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+  
+  footer {
+    padding: 40px;
+    background-color: #999;
+    height: 270px;
+    margin-top: 50px;
+    color: #fff;
+  }
+
+  .footer-list {
+    float: right;
+  }
+
+  .footer-list li {
+    padding-bottom: 20px;
+  }
+
+  .footer-list a {
+    color: #fff;
+  }
+
+  .footer-left {
+    padding: 40px;
+  }
+
+  .footer-left a {
+    color: #fff;
+    padding-right: 40px;
+  }
+
+  .footer-left .fa:hover {
+    opacity: 0.5;
+  }
+
+  .footer-list li:hover {
+    opacity: 0.5;
+  }
+
+  
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  /* CSS Contact Us */
+
+.contact-wrapper .heading h2{
+  color: #5f5d60;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #DDD;
+  text-align:center;
+}
+
+.contact-wrapper .form-contact{
+  width:500px; /* Width formnya 500px, mungkin pas responsive bisa di buat 100% */
+  margin:0 auto;
+}
+
+.contact-wrapper .form-contact .form-element{
+  display:block;
+  padding-bottom:15px;
+}
+
+.contact-wrapper .form-contact .form-element label{
+  font-weight:bold;
+  padding-bottom:5px;
+  display:block;
+}
+
+.contact-wrapper .form-contact .form-element .input-form,
+.contact-wrapper .form-contact .form-element textarea{
+  width:100%;
+  padding:7px;
+  font-size:16px;
+  border:1px solid #DDD;
+}
+
+.contact-wrapper .form-contact .form-element textarea{
+  height:200px;
+  resize:none;
+}
+
+.contact-wrapper .form-contact .form-element .btn-form{
+  padding:10px 40px;
+  float:right;
+  border:none;
+  font-size:14px;
+  font-weight:bold;
+  background-color:#000000;
+  color:#FFF;
+  transition:all 0.5s;
+}
+
+.contact-wrapper .form-contact .form-element .btn-form:hover{
+  background-color:#DDD;
+  color:#000;
+}
+  /* End CSS Contact Us */
+  
