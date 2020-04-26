@@ -35,13 +35,13 @@
   }
 
 
-  /*.menu-icon {
+  .menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 21px 0;
     display: none;
-  }*/
+  }
 
   .top-wrapper {
     padding: 300px 0 100px 0;
@@ -220,6 +220,12 @@
 
   /* CSS Contact Us */
 
+.contact-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
 .contact-wrapper .heading h2{
   color: #5f5d60;
   font-weight: normal;
@@ -275,3 +281,35 @@
 }
   /* End CSS Contact Us */
   
+  /* CSS Quote */
+  .quote-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .quote-wrapper .heading h2{
+  color: #5f5d60;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #DDD;
+  text-align:center;
+}
+
+  .quote-wrapper .list-quote .quote{
+    text-align:center;
+    padding-bottom:10px;
+  }
+
+  .quote-wrapper .list-quote .quote h3{
+    font-style:italic;
+  }
+
+  .quote-wrapper .list-quote .quote img{
+    width:150px;
+    height:220px;
+    padding:10px 0;
+  }
+
+  /* End CSS Quote */
